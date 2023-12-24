@@ -1,0 +1,115 @@
+
+:root{
+    --yel: #f5c044;
+    --gre: #4ca154;
+    --bla: #18181b;
+    --ash: #52525a;
+    --l-ash: #d4d4d8;
+    --l-wh: #fafaf9;
+    --wh: #fff;
+}
+
+*{
+    font-family: 'Sora';
+    margin: 0;
+    padding: 0;
+}
+
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 80px;
+    height: 100vh;
+    background: var(--l-wh);
+}
+
+h1{
+    font-size: 36px;
+    color: var(--bla);
+    padding: 12px 0;
+}
+
+h3{
+    color: var(--ash);
+    padding: 5px 0;
+}
+
+p{
+    line-height: 1.7;
+    color: var(--ash);
+    font-size: 20px;
+}
+
+li{
+    list-style-image: url('../../dccl--responsive-testimonial-page/Done_ring_round_fill.svg');
+    font-size: 14px;
+    color: var(--ash)
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin: 20px 40px;  
+}
+
+.fa-star{
+    color: var(--yel);
+    font-size: 16px;
+}
+
+.big-star{
+    background: var(--yel);
+    padding: 10px;
+    border-radius: 100px;
+    width: 5%;
+    text-align: center;
+}
+
+.main{
+    font-size: 150%;
+    color:  var(--l-wh);
+    display: inline-block;
+    position: relative;
+}
+
+.right img{
+    width: 35%;
+}
+
+.box p{
+    font-size: 14px
+}
+
+.gray{
+    color: var(--l-ash)
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 30px;
+    background: white;
+    border-radius: 20px;
+    width: 40%;
+    margin: 30px;
+    box-shadow: 0px 2px 20px var(--l-ash);
+
+}
+
+.head{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 10px;;
+}
+
+.first{
+    margin-left: 25%;
+}
+
+.box i{
+    font-size: 1.23rem;
+}
+
